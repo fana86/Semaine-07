@@ -1,0 +1,130 @@
+body{
+  background-color: #FFFFFF;
+}
+.topbar{
+  background-color: #173FDE;
+  padding: 30px;
+  font-size: 15px;
+}
+a{
+  color: #FFFFFF;
+  text-decoration: none;
+  position: relative;
+  left: 1100px;
+  margin: 10px;
+}
+a:hover{
+  color: black;
+  text-decoration: none;
+  position: relative;
+  left: 1100px;
+  margin: 10px;
+}
+h1{
+  color: #173FDE;
+  position: absolute;
+  left: 525px;
+  top: 150px;
+  font-style: normal;
+  animation-name: move-right;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes move-right{
+  from{ transform: translate(0);}
+  to{ transform: translate(400px);}
+}
+.bureau{
+  margin-top: 300px;
+  position: relative;
+  left: 350px;
+}
+.photo{
+  margin-top: 20px;
+}
+.texte-container{
+  position: relative;
+  top: 200px;
+}
+.texte-container1{
+  position: absolute;
+  left: 500px;
+  top: 300px;
+}
+.texte-container2{
+  position: absolute;
+  top: 250px;
+  left: 600px;
+}
+.texte-container3{
+  position: absolute;
+  top: 250px;
+  left: 675px;
+}
+.contact-container{
+  display: flex;
+  justify-items: self-end;
+}
+h2{
+position: absolute;
+left: 725px;
+top: 200px;
+}
+h3{
+  color: #FFFFFF;
+  margin: 20px;
+}
+h4{
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p{
+  font-size: 25px;
+}
+.image{
+  position: relative;
+  left: 850px;
+}
+.image2{
+  position: relative;
+  top: 350px;
+}
+*.image3{
+  position: relative;
+  left: 125px;
+  top: 350px;
+}
+form{
+  width: 400px;
+  display: flex;
+flex-direction: column;
+position: relative;
+left: 620px;
+top: 250px;
+}
+input{
+  background-color: #173FDE;
+  width: 250px;
+  margin-top: 2px;
+}
+textarea{
+  background-color: #173FDE;
+  margin-top: 2px;
+  border: solid black;
+}
+button{
+  border: solid;
+  width: 100px;
+  margin-top: 1px;
+  position: relative;
+  left: 150px;
+}
+.bottom{
+  background-color: black;
+  font-size: 10px;
+  padding: 15px;
+  position: relative;
+  bottom: auto;
+}
