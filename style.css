@@ -29,7 +29,7 @@ a:hover{
   text-decoration: none;
 }
 h1{
-  color: #E25822;
+  color: #10316B;
   position: absolute;
   left: 525px;
   top: 150px;
@@ -38,7 +38,7 @@ h1{
   font-weight: 900;
   font-size: 45px;
   animation-name: move-right;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
 }
 @keyframes move-right{
@@ -75,19 +75,34 @@ h1{
   top: auto;
 }
 h2{
+  color: #E25822;
 position: absolute;
 left: 725px;
 top: 250px;
 }
 h3{
-  color: #173FDE;
-  margin: 20px;
+  color: #E25822;
+  font-size: 35px;
+  position: absolute;
+  left: 525px;
+  top: 100px;
+  animation-name: move-right;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes move-right{
+  from{ transform: translate(-150px);}
+  to{ transform: translate(400px);}
 }
 h4{
   color: #FFFFFF;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+h5{
+  color: #10316B;
+  font-size: 13px;
 }
 p{
   font-size: 25px;
@@ -133,7 +148,7 @@ textarea{
   top: 100px;
 }
 button{
-  background-color: #E25822;
+  background-color: #A4B494;
   border: solid;
   width: 100px;
   margin-top: 1px;
