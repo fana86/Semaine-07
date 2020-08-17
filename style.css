@@ -1,6 +1,7 @@
 body{
   background-image: url(laptop.png);
   background-color: #E5E5E5;
+  margin: 0;
 }
 .topbar{
   background-color: #10316B;
