@@ -47,6 +47,7 @@ h1{
   to{ transform: translate(400px);}
 }
 .bureau{
+  border: solid 10px #10316B;
   position: relative;
   left: 350px;
   top: 350px;
@@ -109,6 +110,8 @@ p{
   font-size: 25px;
 }
 .photo{
+  margin: 35px;
+  border: solid 10px #10316B;
   margin-top: 50px;
 }
 .image{
@@ -120,9 +123,14 @@ p{
   top: 350px;
 }
 *.image3{
+  border: solid 10px #10316B;
   position: relative;
   left: 125px;
   top: 350px;
+}
+.linkedin{
+  position: relative;
+  top: 10px;
 }
 form{
   width: 400px;
