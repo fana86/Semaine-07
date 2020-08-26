@@ -200,8 +200,12 @@ button{
     margin: 0;
     position: static;
   }
-  .web, .cv, .untitled{
-    width: 25%;
+  .image2{
+    width: 100%;
+  }
+  #web, #untitled, #cv{
+    width: 100%;
+    position: static;
   }
   .topbar{
     width: 25%;
